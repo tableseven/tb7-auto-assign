@@ -15,6 +15,7 @@
   ],
   "scripts": {
     "build": "tsc",
+    "dev": "nodemon --exec 'npm start'",
     "start": "probot run ./lib/index.js",
     "test": "jest"
   },
