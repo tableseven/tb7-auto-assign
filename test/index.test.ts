@@ -24,7 +24,7 @@ describe('My Probot app', () => {
       // disable request throttling and retries for testing
       Octokit: ProbotOctokit.defaults({
         retry: { enabled: false },
-        throttle: { enabled: false },
+        throttle: { enabled: false }
       })
     })
     // Load our app into probot
@@ -33,13 +33,12 @@ describe('My Probot app', () => {
 
   test('creates a comment when an issue is opened', async (done) => {
     const mock = nock('https://api.github.com')
-
       // Test that we correctly return a test token
       .post('/app/installations/2/access_tokens')
-      .reply(200, { 
+      .reply(200, {
         token: 'test',
         permissions: {
-          issues: "write"
+          issues: 'write'
         }
       })
 
