@@ -20,6 +20,7 @@
     "test": "jest"
   },
   "dependencies": {
+    "prettier": "^2.1.2",
     "probot": "^10.9.3"
   },
   "devDependencies": {
