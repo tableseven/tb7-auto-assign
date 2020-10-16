@@ -2,7 +2,7 @@
 
 > A GitHub App built with [Probot](https://github.com/probot/probot) that assigns a random github to a newely created issue
 
-![Bot assigning user to issue]()
+![Bot assigning user to issue](https://github.com/tableseven/tb7-auto-assign/blob/master/Guide/resources/images/New%20issue.png)
 
 ## How it works
 
@@ -11,7 +11,7 @@
 
 ## Usage
 
-1. [Install the app]().
+1. [Install the app](https://github.com/apps/tb-7-auto-assign).
 2. Create `.github/auto-assign-issues.yml` in your repository.
 
 ```yaml
