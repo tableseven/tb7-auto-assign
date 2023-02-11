@@ -21,7 +21,7 @@
   },
   "dependencies": {
     "prettier": "^2.1.2",
-    "probot": "^10.9.3"
+    "probot": "^12.3.0"
   },
   "devDependencies": {
     "@types/jest": "^26.0.9",
